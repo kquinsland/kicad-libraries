@@ -34,20 +34,4 @@ Fortunately, it's easy to update to the latest format:
 Saving symbol library in updated format
 ```
 
-## Auto export images
-
-// TODO: automate this better
-
-```shell
-# PCB symbol
-❯ kicad-cli sym export svg connectors.kicad_sym
-Plotting symbol 'R-RJ45R08P-A004' to 'r-rj45r08p-a004.svg'
-
-# PCB footprint
-❯ kicad-cli fp export svg connectors.pretty
-Loading footprint library
-Plotting footprint 'RJ45-TH_R-RJ45R08P-A004' to 'RJ45-TH_R-RJ45R08P-A004.svg'
-```
-
-At present, 3d models are exported but the KiCad tooling doesn't support rendering just the 3D model.
-With some work, you could create a PCB with just the single component on it and render that
+I have some super crude notes on exporting images for the footprint/symbol/3D model in [`LCSC/_docs/Notes on auto generating images.md`](./_docs/Notes%20on%20auto%20generating%20images.md)

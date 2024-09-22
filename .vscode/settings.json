@@ -1,10 +1,12 @@
 {
     "cSpell.words": [
         "Autorouter",
+        "descr",
         "dshapes",
         "easyeda",
         "Eeschema",
         "gitmodules",
+        "KIPRJMOD",
         "lcsc",
         "Netlist",
         "Pcbnew"

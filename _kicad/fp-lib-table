@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MINE_LCSC_CONNECTORS")(type "KiCad")(uri "${KIPRJMOD}/../LCSC/connectors.pretty")(options "")(descr "Parent / \"owner\" of the common libraries"))
+  (lib (name "MINE_DC-2-DC")(type "KiCad")(uri "${KIPRJMOD}/../DC_to_DC_Modules/DC_to_DC_Modules.pretty")(options "")(descr "Parent / \"owner\" of the common libraries"))
+  (lib (name "MINE_SENSOR-MODULES")(type "KiCad")(uri "${KIPRJMOD}/../Sensor_Modules/Sensor_Modules.pretty")(options "")(descr "Parent / \"owner\" of the common libraries"))
+  (lib (name "MINE_TRANSCEIVERS")(type "KiCad")(uri "${KIPRJMOD}/../Transceivers/Transceivers.pretty")(options "")(descr "Parent / \"owner\" of the common libraries"))
+  (lib (name "MINE_ESP32_MODULES")(type "KiCad")(uri "${KIPRJMOD}/../ESP32_Modules/ESP32_Modules.pretty")(options "")(descr "Parent / \"owner\" of the common libraries"))
+)

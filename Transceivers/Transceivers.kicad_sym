@@ -210,8 +210,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Transceivers:rs485_ttl_module"
-			(at 0 0 0)
+		(property "Footprint" "MINE_TRANSCEIVERS:rs485_ttl_module"
+			(at 0.254 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)

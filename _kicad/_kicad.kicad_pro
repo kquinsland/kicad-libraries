@@ -25,7 +25,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "MINE_TRANSCEIVERS"
+    ]
   },
   "meta": {
     "filename": "_kicad.kicad_pro",

@@ -24,7 +24,9 @@
     "equivalence_files": []
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "MINE_ESP32_MODULES"
+    ],
     "pinned_symbol_libs": [
       "MINE_TRANSCEIVERS"
     ]

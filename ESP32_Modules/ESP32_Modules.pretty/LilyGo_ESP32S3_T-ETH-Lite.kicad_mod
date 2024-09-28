@@ -1300,4 +1300,15 @@
 			)
 		)
 	)
+	(model "/home/karl/Projects/kicad/libraries/Transceivers/Transceivers.pretty/packages3d/T-ETH-Lite-ESP32S3.stl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

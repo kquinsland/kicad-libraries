@@ -25,7 +25,11 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "MINE_ESP32_MODULES"
+      "MINE_ESP32_MODULES",
+      "MINE_DC-2-DC",
+      "MINE_LCSC_CONNECTORS",
+      "MINE_SENSOR-MODULES",
+      "MINE_TRANSCEIVERS"
     ],
     "pinned_symbol_libs": [
       "MINE_TRANSCEIVERS",

@@ -1001,7 +1001,7 @@
 			"f1fc8d4c-dd65-4ecc-8a77-f2c09a666210"
 		)
 	)
-	(model "${MY_LIBS}/ESP32_Modules/ESP32_Modules.pretty/packages3d/ESP32-C3-SuperMini.step"
+	(model "${KIPRJMOD}/../ESP32_Modules/ESP32_Modules.pretty/packages3d/ESP32-C3-SuperMini.step"
 		(offset
 			(xyz -20 4.75 -3)
 		)

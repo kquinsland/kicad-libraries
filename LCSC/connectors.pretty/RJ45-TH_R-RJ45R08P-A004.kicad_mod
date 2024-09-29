@@ -334,7 +334,7 @@
 		(remove_unused_layers no)
 		(uuid "0ba68e7d-65e9-4985-80bb-6fab73981989")
 	)
-	(model "/home/karl/Projects/kicad/libraries/LCSC/connectors.3dshapes/RJ45-TH_L15.9-W15.1-H12.6.wrl"
+	(model "${KIPRJMOD}/../LCSC/connectors.3dshapes/RJ45-TH_L15.9-W15.1-H12.6.wrl"
 		(offset
 			(xyz 0 -1.07 0)
 		)

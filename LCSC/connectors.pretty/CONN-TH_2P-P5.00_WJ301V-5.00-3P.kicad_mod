@@ -288,7 +288,7 @@
 		(remove_unused_layers no)
 		(uuid "91d9f778-eb58-4fcc-aab0-12673d42818d")
 	)
-	(model "/home/karl/Projects/kicad/libraries/LCSC/connectors.3dshapes/CONN-TH_2P-P5.00_WJ301V-5.00-3P.wrl"
+	(model "${KIPRJMOD}/../LCSC/connectors.3dshapes/CONN-TH_2P-P5.00_WJ301V-5.00-3P.wrl"
 		(offset
 			(xyz -0.3 0.25 5.5)
 		)

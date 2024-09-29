@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_Modules:ESP32-C3-SuperMini"
-			(at 9.75 -19 0)
+		(property "Footprint" "MINE_ESP32_MODULES:ESP32-C3-SuperMini"
+			(at 12.7 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Compact ESP32 module"
-			(at 0 0 0)
+			(at 2.794 -22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)

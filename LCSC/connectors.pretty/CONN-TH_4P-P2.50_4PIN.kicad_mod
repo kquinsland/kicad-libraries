@@ -226,7 +226,7 @@
 		(remove_unused_layers no)
 		(uuid "da968114-b0f8-40b5-9a57-d85088c13696")
 	)
-	(model "/home/karl/Projects/kicad/libraries/LCSC/connectors.3dshapes/CONN-TH_4P-P2.50_4PIN.wrl"
+	(model "${KIPRJMOD}/../LCSC/connectors.3dshapes/CONN-TH_4P-P2.50_4PIN.wrl"
 		(offset
 			(xyz 3.5 -0.05 0)
 		)

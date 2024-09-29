@@ -1217,7 +1217,7 @@
 			)
 		)
 	)
-	(model "/home/karl/Projects/kicad/libraries/Transceivers/Transceivers.pretty/packages3d/T-ETH-Lite-ESP32S3.stl"
+	(model "${KIPRJMOD}/../ESP32_Modules/ESP32_Modules.pretty/packages3d/T-ETH-Lite-ESP32S3.stl"
 		(offset
 			(xyz 0 0 0)
 		)

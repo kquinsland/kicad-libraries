@@ -5,4 +5,5 @@
   (lib (name "MINE_SENSOR-MODULES")(type "KiCad")(uri "${KIPRJMOD}/../Sensor_Modules/Sensor_Modules.pretty")(options "")(descr "Parent / \"owner\" of the common libraries"))
   (lib (name "MINE_TRANSCEIVERS")(type "KiCad")(uri "${KIPRJMOD}/../Transceivers/Transceivers.pretty")(options "")(descr "Parent / \"owner\" of the common libraries"))
   (lib (name "MINE_ESP32_MODULES")(type "KiCad")(uri "${KIPRJMOD}/../ESP32_Modules/ESP32_Modules.pretty")(options "")(descr "Parent / \"owner\" of the common libraries"))
+  (lib (name "MINE_jlc_pcb_symbols")(type "KiCad")(uri "${KIPRJMOD}/../JLC_SYMBOLS/jlc_pcb_symbols.pretty")(options "")(descr "Basic symbols for JLCPCB"))
 )

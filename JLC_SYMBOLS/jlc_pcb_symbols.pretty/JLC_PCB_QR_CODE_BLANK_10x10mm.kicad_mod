@@ -1,0 +1,122 @@
+(footprint "JLC_PCB_QR_CODE_BLANK_10x10mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "At the desired position, add a white square to the silkscreen layer to match your 2D barcode size. For Number-only printing, use a 2x10mm white square. If no square of a matching size is found, the 2D barcode will not be added at your specified location.If there isn't enough space on the board to add the 2D barcode, we may decide not to print it and will not accept complaints regarding this issue.\n\n② Considerations:\n\nTo ensure the 2D barcode can be scanned correctly, position it away from traces, drilling, soldermask apertures, and other silkscreen patterns (preferably on large copper surfaces or exposed substrate areas).As this is a free customization service, we do not accept liability for any scanning issues or refund claims due to service failures.")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a18c4726-6207-4cd0-85be-273b43e349d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JLC_PCB_QR_CODE_BLANK_10x10mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "885d108f-2865-4e60-8a03-babab62789bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "253a2ff5-54bc-4182-8dc0-5f105964078a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e93ab929-eef0-46f3-a635-30e74fa20a34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "A 10x10 mm square of solid silk screen with keep-out rules. FAB House will modify the square to encode the barcode"
+		(at -0.03 -13.19 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5637236f-070d-4959-97a7-7a5453e83ef0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -5 -10)
+		(end 5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "eb44489a-f71d-4c09-a003-af6f485ed1a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "85df5515-6159-4350-8d7a-f5d2c1b82827")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F&B.Cu" "F.SilkS")
+		(uuid "8dbe49b8-ced8-485d-8afa-5c3183653cd3")
+		(name "QR_CODE")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5 -10) (xy 5 -10) (xy 5 0) (xy -5 0)
+			)
+		)
+	)
+)

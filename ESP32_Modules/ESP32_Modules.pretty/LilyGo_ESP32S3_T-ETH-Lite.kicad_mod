@@ -447,6 +447,17 @@
 		(uuid "4fc10946-5c2d-4906-8926-668aae5049e9")
 	)
 	(fp_circle
+		(center 6.332547 -17.866548)
+		(end 6.932547 -17.866548)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "b29d95fe-a0b6-4353-936f-de8c17a9738c")
+	)
+	(fp_circle
 		(center 6.332547 -15.326548)
 		(end 6.932547 -15.326548)
 		(stroke
@@ -455,7 +466,7 @@
 		)
 		(fill none)
 		(layer "Dwgs.User")
-		(uuid "b29d95fe-a0b6-4353-936f-de8c17a9738c")
+		(uuid "a04b3a3f-2190-4e16-803c-8a57565abb9b")
 	)
 	(fp_circle
 		(center 6.332547 -12.786548)
@@ -466,22 +477,11 @@
 		)
 		(fill none)
 		(layer "Dwgs.User")
-		(uuid "a04b3a3f-2190-4e16-803c-8a57565abb9b")
+		(uuid "dc47f85c-feb3-49a6-a33d-3faf50a8ba92")
 	)
 	(fp_circle
 		(center 6.332547 -10.246548)
 		(end 6.932547 -10.246548)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "dc47f85c-feb3-49a6-a33d-3faf50a8ba92")
-	)
-	(fp_circle
-		(center 6.332547 -7.706548)
-		(end 6.932547 -7.706548)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -502,19 +502,8 @@
 		(uuid "d6b87b70-adb2-47a6-88ff-8ae25c90cf9f")
 	)
 	(fp_circle
-		(center 9.332546 -17.866548)
-		(end 9.932546 -17.866548)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "b6bfd61a-d0ad-4fb0-ac06-e544472ca069")
-	)
-	(fp_circle
-		(center 9.332546 -10.246548)
-		(end 9.932546 -10.246548)
+		(center 9.332546 -12.786548)
+		(end 9.932546 -12.786548)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -535,8 +524,8 @@
 		(uuid "3e4dca44-17e6-40bd-891d-2323260a8b22")
 	)
 	(fp_circle
-		(center 9.332547 -15.326548)
-		(end 9.932547 -15.326548)
+		(center 9.332547 -17.866548)
+		(end 9.932547 -17.866548)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -546,8 +535,8 @@
 		(uuid "1b401631-baa2-4886-9fc4-ec820e54a20f")
 	)
 	(fp_circle
-		(center 9.332547 -12.786548)
-		(end 9.932547 -12.786548)
+		(center 9.332547 -15.326548)
+		(end 9.932547 -15.326548)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -557,8 +546,8 @@
 		(uuid "0e60e782-88f6-4581-9c8b-17633d1515c7")
 	)
 	(fp_circle
-		(center 9.332547 -7.706548)
-		(end 9.932547 -7.706548)
+		(center 9.332547 -10.246548)
+		(end 9.932547 -10.246548)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -1048,7 +1037,7 @@
 		(uuid "ba69a4e4-6a43-468f-a069-0c0856f9516d")
 	)
 	(pad "32" thru_hole circle
-		(at 9.332546 -22.946548)
+		(at 9.332546 -25.486548)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -1056,7 +1045,7 @@
 		(uuid "727118c7-7e9e-4d1d-8daa-7ac03b920f29")
 	)
 	(pad "33" thru_hole circle
-		(at 9.332547 -20.406548)
+		(at 9.332547 -22.946548)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -1064,7 +1053,7 @@
 		(uuid "58c6a2c9-a002-4011-94f9-01c7e8814da6")
 	)
 	(pad "34" thru_hole circle
-		(at 9.332546 -17.866548)
+		(at 9.332546 -20.406548)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")

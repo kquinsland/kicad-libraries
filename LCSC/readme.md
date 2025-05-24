@@ -1,6 +1,10 @@
 # All the LCSC components that I use
 
-Everything here was generated using the [`easyeda2kicad`](https://github.com/uPesy/easyeda2kicad.py) tool.
+Everything here was generated using the [`easyeda2kicad`](https://github.com/uPesy/easyeda2kicad.py) tool which can be installed:
+
+```shell
+uv tool install easyeda2kicad
+```
 
 ## Usage
 

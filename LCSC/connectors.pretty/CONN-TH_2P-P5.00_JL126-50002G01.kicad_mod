@@ -1,7 +1,7 @@
 (footprint "CONN-TH_2P-P5.00_JL126-50002G01"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0d4c2ae8-153a-4fa5-b164-54eabdc98ddb")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -229,7 +217,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0948ffdd-d70e-46a1-bc92-e701f677973c")
 	)
@@ -240,7 +228,7 @@
 			(width 0.7)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1f998e69-8fa8-43c8-9b4b-17364599943f")
 	)
@@ -251,7 +239,7 @@
 			(width 0.7)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "78d6219a-c128-40f2-8bc9-2ac20f99e49e")
 	)
@@ -282,15 +270,16 @@
 		(remove_unused_layers no)
 		(uuid "1134cf76-912d-4021-bfa6-69e1300a1a15")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../LCSC/connectors.3dshapes/CONN-TH_2P-P5.00_JL126-50002G01.wrl"
 		(offset
-			(xyz 0.3 -0.12 5)
+			(xyz 0 -0.12 5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

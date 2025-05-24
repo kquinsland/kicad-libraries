@@ -1,7 +1,7 @@
 (footprint "CONN-TH_2P-P5.00_WJ301V-5.00-3P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.01 -3.14 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dcbd4889-23c7-423b-99f0-3f947ee1c594")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -249,7 +237,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7a94ce35-6d37-43e7-b2aa-f309d1e9a351")
 	)
@@ -288,6 +276,7 @@
 		(remove_unused_layers no)
 		(uuid "91d9f778-eb58-4fcc-aab0-12673d42818d")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../LCSC/connectors.3dshapes/CONN-TH_2P-P5.00_WJ301V-5.00-3P.wrl"
 		(offset
 			(xyz -0.3 0.25 5.5)

@@ -1,7 +1,7 @@
 (footprint "XL6009-boost-module"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b5aa8451-9b7e-4a6b-8ffc-69a255b087ce")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -111,7 +99,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "0aa9f2d5-528e-48e9-b5f7-c81aadc18770")
 	)
@@ -122,7 +110,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c1f324a5-893b-4552-9ac0-aaa2032da1eb")
 	)
@@ -133,7 +121,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "df21e7f4-e127-4dd3-99ac-94766a18c1e6")
 	)
@@ -144,7 +132,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c3d4061f-bb4b-4ac2-af89-dfc7c443a688")
 	)
@@ -155,7 +143,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "1c847bb3-26c3-432a-8598-4eaf11f3e71d")
 	)
@@ -166,7 +154,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "49c7d777-6209-4858-bd5f-3decd4b32928")
 	)
@@ -263,6 +251,7 @@
 			"d641c60e-09fb-4fad-8db9-60867e12fa4f" "df21e7f4-e127-4dd3-99ac-94766a18c1e6"
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../DC_to_DC_Modules/DC_to_DC_Modules.pretty/packages3d/XL6009-boost-module.step"
 		(offset
 			(xyz -2 0.5 2)

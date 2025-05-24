@@ -1,0 +1,245 @@
+(footprint "CONN-TH_WJ126V-5.0-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "3e2946b4-b69f-461d-aea6-a45417f898d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_WJ126V-5.0-2P"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "93bfc38c-7ada-4697-9425-837917dfd7a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3988f6f5-31e1-49c8-99b8-4dcde4a59e04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "186a5c6b-83f2-4412-a384-8a6f8b3d797f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.8 -5)
+		(end 0 -5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccdd9600-e964-4625-8ed2-ff2321cee383")
+	)
+	(fp_line
+		(start -3.8 -3.5)
+		(end -2.5 -3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfdbaa8c-9a94-446a-9c55-8252a6dfa19c")
+	)
+	(fp_line
+		(start -3.8 1.5)
+		(end -2.5 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "daa9ce75-4f00-4631-97d7-cff143b3b9a9")
+	)
+	(fp_line
+		(start -3.8 5)
+		(end -3.8 -5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7ba105a-8d54-432d-9f00-3c3febda675f")
+	)
+	(fp_line
+		(start -2.5 -3.5)
+		(end -2.5 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c054fbf1-dd6f-4a6b-b877-13705a74f67a")
+	)
+	(fp_line
+		(start -2.5 -1.5)
+		(end -3.8 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a6eb1e6-d5c2-4610-8f35-38c7a2f4612f")
+	)
+	(fp_line
+		(start -2.5 1.5)
+		(end -2.5 3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95ae5fbd-1a97-421f-97f2-bdb5ebf09b6b")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end -3.8 3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07cd7854-b225-4ec1-b8fa-182e1f754423")
+	)
+	(fp_line
+		(start 0 -5)
+		(end 4 -5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86848284-f9a9-4fed-93c7-7bf7d0317587")
+	)
+	(fp_line
+		(start 0 5)
+		(end -3.8 5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4782e88-33d6-47f8-a973-8bf5c9e222e5")
+	)
+	(fp_line
+		(start 4 -5)
+		(end 4 5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41497350-eff1-400c-aa77-687598cc5fba")
+	)
+	(fp_line
+		(start 4 5)
+		(end 0 5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d376b7f-c956-418d-b106-3ffabb25e575")
+	)
+	(fp_circle
+		(center -3.93 -5.13)
+		(end -3.9 -5.13)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4287d334-20c5-4960-82ea-42d69e1c599c")
+	)
+	(fp_circle
+		(center 0 -2.5)
+		(end 0.28 -2.5)
+		(stroke
+			(width 0.55)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cb777297-8ed2-4fc8-8ed7-3564893a814d")
+	)
+	(fp_circle
+		(center 0 2.5)
+		(end 0.28 2.5)
+		(stroke
+			(width 0.55)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "533b4a6f-53b9-4bdf-961e-ea57dde4c296")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1ac61384-5d7b-4142-8304-ce249b272a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.5 270)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e14cfe6e-0a2c-4ea2-9152-e9a7130f6220")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.5 270)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a75739ec-4dd4-4ce0-8863-fcc3aa42f396")
+	)
+	(embedded_fonts no)
+	(model "/home/karl/Projects/kicad/libraries/LCSC/connectors.3dshapes/CONN-TH_DB5.00-LI-2P-126.wrl"
+		(offset
+			(xyz 0.1 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

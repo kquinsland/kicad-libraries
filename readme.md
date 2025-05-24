@@ -70,3 +70,7 @@ KiCad - as far as I know - does NOT support version control for global libraries
 ## TODO
 
 Would be nice to GHA CI/CD to automatically generate images of the footprints and add them to the readme.
+
+```shell
+uv tool install kikit
+```

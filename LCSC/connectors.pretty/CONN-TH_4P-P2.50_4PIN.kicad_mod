@@ -1,7 +1,7 @@
 (footprint "CONN-TH_4P-P2.50_4PIN"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "73a3ba1e-c90b-48e9-b622-3841e1b2a136")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -179,7 +167,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ef39a0a2-c2b3-449e-8d99-2fe223ee05c8")
 	)
@@ -226,6 +214,7 @@
 		(remove_unused_layers no)
 		(uuid "da968114-b0f8-40b5-9a57-d85088c13696")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../LCSC/connectors.3dshapes/CONN-TH_4P-P2.50_4PIN.wrl"
 		(offset
 			(xyz 3.5 -0.05 0)
